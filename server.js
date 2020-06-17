@@ -13,7 +13,7 @@ app.use(
   })
 )
 
-const mongoURI = 'mongodb://localhost:27017/mernloginreg'
+const mongoURI = 'mongodb://user:pass@123@ds221095.mlab.com:21095/heroku_01xw8jh6'
 
 mongoose.set('useCreateIndex', true)
 mongoose
