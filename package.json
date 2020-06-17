@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js",
+    "start": "nodemon server.js",
     "client": "npm start --prefix client"
   },
   "author": "Deepak Pawar",
