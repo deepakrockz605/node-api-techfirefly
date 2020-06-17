@@ -13,7 +13,7 @@ app.use(
   })
 )
 
-const mongoURI = 'mongodb://user:pass@123@ds221095.mlab.com:21095/heroku_01xw8jh6'
+const mongoURI = 'mongodb://user:user123@ds033337.mlab.com:33337/heroku_8x5s8v32'
 
 mongoose.set('useCreateIndex', true)
 mongoose
