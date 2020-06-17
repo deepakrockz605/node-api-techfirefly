@@ -10,7 +10,7 @@ users.use(cors());
 process.env.SECRET_KEY = "secret";
 
 users.get('/test', (req,res) => {
-  res.send('Hello')
+  res.send('Hello1')
 })
 
 users.post("/register", (req, res) => {
