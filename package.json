@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-mysql-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client"
+  },
+  "author": "Deepak Pawar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.19",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "react-router-dom": "^5.2.0",
+    "toastr": "^2.1.4"
+  }
+}
